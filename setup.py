@@ -15,11 +15,11 @@ setuptools.setup(
     download_url="https://github.com/mikaelalafriz/lucid-sonic-dreams/archive/v_04.tar.gz",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=['tensorflow==1.15',
+    install_requires=['tensorflow==2.2.0',
                       'librosa',
                       'numpy',
                       'moviepy',
